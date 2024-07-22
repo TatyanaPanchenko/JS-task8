@@ -1,0 +1,41 @@
+h1 {
+	text-align: center;
+}
+
+.formList {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+input {
+	height: 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+select {
+	height: 25px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+button {
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 0 auto;
+	background-color: rgb(175, 201, 248);
+	border: none;
+	cursor: pointer;
+}
+
+.get-list {
+	display: flex;
+	flex-direction: column;
+}
